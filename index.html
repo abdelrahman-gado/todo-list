@@ -8,7 +8,32 @@
     <title>Todo List</title>
 </head>
 <body>
-    
+    <nav class="heading">
+        <h3 class="weclome-txt">Hello, </h3>
+    </nav>
+
+    <div class="content">
+        <div class="projects">
+            <div class="add-project">
+                <input id="new-project-input" class="input-style" type="text" placeholder="Your new project">
+                <input id="create-new-project" class="new-btn" type="button" value="create new">
+            </div>
+        </div>
+
+        <div class="notes">
+            <div class="add-note">
+                <input id="note-content-input" class="input-style" type="text" placeholder="Your task">
+                <input id="note-date-input" class="input-style" type="date">
+                <select id="note-priority-input" class="input-style">
+                    <option value="urgent">urgent</option>
+                    <option value="normal">normal</option>
+                </select>
+                <input id="create-new-note" class="new-btn" type="button" value="create">
+            </div>
+
+        </div>
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>
