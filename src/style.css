@@ -23,7 +23,7 @@ body {
 
 .content {
     display: flex;
-    gap: 3vw;
+    gap: 1vw;
     margin: 1rem;
     min-height: 80vh;
     padding: 1rem;
@@ -35,7 +35,7 @@ body {
     border: 3px solid #4044c9;
     border-radius: 10px;
     padding: 1rem;
-    min-width: 30vw;
+    min-width: 23vw;
 }
 
 
@@ -43,7 +43,7 @@ body {
     border: 3px solid #4044c9;
     border-radius: 10px;
     padding: 1rem;
-    min-width: 63vw;
+    min-width: 73vw;
 }
 
 .input-style {
@@ -55,7 +55,7 @@ body {
 }
 
 #new-project-input {
-    width: 60%;
+    width: 50%;
 }
 
 .new-btn {
@@ -93,10 +93,51 @@ body {
     min-width: 50%;
 }
 
-.delete-new-project {
+.small-btn {
     padding: 0.3rem;
     background-color: #4044c9;
     color: white;
     border: none;
     border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.new-note {
+    border: 1px solid #7b7b7b;
+    margin: 1rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+
+.new-note:hover {
+    border-color: #4044c9;
+}
+.check-note {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.note-content {
+    display: inline-block;
+    width: 25rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.note-date {
+    display: inline-block;
+    width: 14rem;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.note-priority {
+    display: inline-block;
+    width: 5rem;
+    text-align: center;
+    border: none;
+    background-color: #4044c9;
+    border-radius: 10px;
+    margin-right: 2rem;
 }
